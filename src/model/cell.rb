@@ -1,12 +1,11 @@
 class Cell 
 	attr_reader :x, :y
 	attr_writer :shot
-	attr_accessor :ships
+	attr_accessor :ship
 	def initialize(x, y)
 		@x = x
 		@y = y
 		@shot = false
-		@ships = []
 	end
 	
 	def close?(cell)

@@ -1,0 +1,11 @@
+1. Start program
+See 2 empty grids.
+Right grid is locked.
+
+2. Touch cell
+If there is no ship close to cell and ships count less than 10, then see a new one cell ship.
+Else add cell to an existing ship
+
+3. Touch finish
+Validate all ships. Start syncronization.
+All grids are locked
