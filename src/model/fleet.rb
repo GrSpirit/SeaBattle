@@ -1,4 +1,7 @@
 class Fleet
+	attr_reader :ships
+	attr_reader :cells
+
 	def initialize
 		@ships = []
 		@cells = []
